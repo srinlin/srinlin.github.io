@@ -2,8 +2,7 @@
 
 <nav class="navlist">
   {% if page.sidebar.title %}<h3 class="navtitle" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
-  <input id="ac-toc" name="accordion-toc" type="checkbox" />
-  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
+
   <ul class="navitems">
     {% for nav in navigation %}
       <li>
