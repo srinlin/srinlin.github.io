@@ -14,3 +14,16 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+docs:
+  - title: "CATEGORY"
+    children: 
+      - title: "TIL"
+        url: /categories/TIL/
+        category: "TIL"
+      - title: "DataScience"
+        url: /categories/DataScience/
+        category: "DataScience"
+      - title: "ML"
+        url: /categories/ML
+        category: "ML"
