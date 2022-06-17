@@ -27,3 +27,6 @@ docs:
       - title: "ML"
         url: /categories/ML
         category: "ML"
+      - title: "DL"
+        category: "DL"
+        url: /categories/DL
