@@ -249,6 +249,7 @@ print(f"train: {train.shape}\ntest: {test.shape}")
 
 
 # 정답값이자 예측해야될 값
+---
 
 
 ```python
@@ -256,7 +257,7 @@ label_name = "Outcome" #Outcome은 정답이므로 학습, 예측에서 제외
 ```
 
 # 학습, 예측에 사용할 칼럼
-
+---
 
 ```python
 # feature_names 라는 변수에 학습과 예측에 사용할 컬럼명을 가져옴
@@ -283,7 +284,7 @@ print(f"X_train: {X_train.shape}\ny_train: {y_test.shape}\nX_test: {X_test.shape
 
 
 # 머신러닝 알고리즘 
-
+---
 ## 결정 트리 학습법 (Decision Tree Learning)
 * 직관적으로 이해하기 쉬운 알고리즘 
 * 데이터에 있는 규칙을 학습을 통해 자동으로 찾아내 트리 기반의 분류 규칙을 만듦 
@@ -340,7 +341,7 @@ model
 
 
 # 학습(훈련)
-
+---
 
 ```python
 model.fit(X_train, y_train)
@@ -354,7 +355,7 @@ model.fit(X_train, y_train)
 
 
 # 예측
-
+---
 
 ```python
 y_predict = model.predict(X_test)
@@ -369,7 +370,7 @@ y_predict[:10]
 
 
 # 트리 알고리즘 분석
-
+--- 
 
 ```python
 from sklearn.tree import plot_tree
@@ -401,7 +402,7 @@ plt.show()
 결정트리 최상단에 가장 중요한 feature가 오는데 Glucose가 온 것을 확인할 수 있음
 
 # feature의 중요도 추출
-
+---
 
 ```python
 np.sum(model.feature_importances_)
@@ -435,7 +436,7 @@ sns.barplot(x=model.feature_importances_, y=feature_names)
 
 
 # 정확도(Accuracy) 측정하기
-
+---
 
 ```python
 #예측의 정확도를 구함
@@ -475,10 +476,3 @@ model.score(X_test, y_test)
 
 
     0.7207792207792207
-
-
-
-
-```python
-
-```
