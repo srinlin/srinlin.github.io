@@ -1,3 +1,20 @@
+---
+title: 88돌아다니조
+date: 2022-06-19T13:38:04.070Z
+
+categories:
+  - ML
+tags:
+  - ML
+  - Descision Tree
+  - pima
+  - pandas
+  - seaborn
+  - numpy
+  - md
+toc_label: 페이지
+---
+
 # Data Set 
 ---
 Pima Indians Diabetes Database | Kaggle  
