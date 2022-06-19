@@ -14,6 +14,7 @@ tags:
   - md
 toc_label: 페이지
 ---
+결정트리로 피마 인디언 당뇨 분류
 
 # Data Set 
 ---
