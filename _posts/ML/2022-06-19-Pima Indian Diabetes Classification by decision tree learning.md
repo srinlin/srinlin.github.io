@@ -195,7 +195,7 @@ _ = df.hist(figsize=(12, 8), bins=50)
 
 
     
-![png](/assets/images/source_images/pdcbydt/Pima%20Indian%20Diabetes%20Classification%20by%20decision%20tree%20learning_files/Pima%20Indian%20Diabetes%20Classification%20by%20decision%20tree%20learning_9_0.png)
+![png](/assets/images/source_images/pdcbydt/Pima%20Indian%20Diabetes%20Classification%20by%20decision%20tree%20learning_9_0.png)
     
 
 
@@ -381,7 +381,7 @@ plt.show()
 
 
     
-![png](/assets/images/source_images/pdcbydt/Pima%20Indian%20Diabetes%20Classification%20by%20decision%20tree%20learning_files/Pima%20Indian%20Diabetes%20Classification%20by%20decision%20tree%20learning_30_0.png)
+![png](/assets/images/source_images/pdcbydt/Pima%20Indian%20Diabetes%20Classification%20by%20decision%20tree%20learning_30_0.png)
     
 
 
@@ -394,7 +394,7 @@ plt.show()
 
 
     
-![png](/assets/images/source_images/pdcbydt/Pima%20Indian%20Diabetes%20Classification%20by%20decision%20tree%20learning_files/Pima%20Indian%20Diabetes%20Classification%20by%20decision%20tree%20learning_31_0.png)
+![png](/assets/images/source_images/pdcbydt/Pima%20Indian%20Diabetes%20Classification%20by%20decision%20tree%20learning_31_0.png)
     
 
 
@@ -430,7 +430,7 @@ sns.barplot(x=model.feature_importances_, y=feature_names)
 
 
     
-![png](/assets/images/source_images/pdcbydt/Pima%20Indian%20Diabetes%20Classification%20by%20decision%20tree%20learning_files/Pima%20Indian%20Diabetes%20Classification%20by%20decision%20tree%20learning_35_1.png)
+![png](/assets/images/source_images/pdcbydt/Pima%20Indian%20Diabetes%20Classification%20by%20decision%20tree%20learning_35_1.png)
     
 
 
